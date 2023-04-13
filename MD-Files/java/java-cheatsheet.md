@@ -395,10 +395,6 @@ for (int i = 0; i < numbers.length; i++) {
 
 In diesem Beispiel wird ein eindimensionales Array "numbers" mit den Werten 1, 2, 3, 4 und 5 deklariert und initialisiert. Eine for-Schleife wird verwendet, um über das Array zu iterieren und jedes Element auf der Konsole auszugeben. Die Schleife wird durch den Schleifenkopf gesteuert, der von der Schleifenvariable `i` und der Länge des Arrays `numbers.length` abhängt.
 
-### Zweidimensionale Arrays
-
-In diesem Beispiel wird ein zweidimensionales Array "matrix" mit den Werten {{1, 2}, {3, 4}, {5, 6}} deklariert und initialisiert. Zwei verschachtelte for-Schleifen werden verwendet, um über das Array zu iterieren und jedes Element auf der Konsole auszugeben. Die äußere Schleife iteriert über die Zeilen des Arrays, während die innere Schleife über die Spalten iteriert. Jedes Element wird durch die Indizes `i` und `j` angegeben.
-
 ### Maximum eines eindimensionalen Arrays finden
 
 ```java
