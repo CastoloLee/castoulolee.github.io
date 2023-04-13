@@ -1,0 +1,99 @@
+img.card{
+    height: 128px;
+    width: 128px;
+}
+
+img.card-special{
+    height: 128px;
+    width: 148px;
+}
+
+body.restricted{
+    overflow: hidden;
+    max-height: 600px;
+}
+
+h3.title{
+    font-size: 5em;
+}
+
+h4.subtitle{
+    font-size:1cm;
+}
+
+.cheatsheet-grid{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: 200px;
+}
+
+button.toggle{
+    margin-left: 15%;
+    margin-right: 10%;
+    width: 10%;
+    height: 15%;
+}
+
+.cheatsheet-nav{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: auto;
+}
+
+.buttondesc{
+    margin-left: 7%;
+    margin-right: 10%;
+    width: auto;
+    height: auto;
+}
+
+@media only screen and (max-width: 414px) {
+    img.card {
+        height: 128px;
+        width: 128px;
+    }
+    
+    img.card-special {
+        height: 128px;
+        width: 148px;
+    }
+
+    body.restricted{
+        overflow: hidden;
+        max-height: 600px;
+    }
+
+    h3.title{
+        font-size: 5em;
+    }
+
+    .cheatsheet-grid{
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+        height: 200px;
+    }
+
+    button.toggle{
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 15%;
+        height: 15%;
+    }
+    
+    .buttondiv{
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 15%;
+        height: 15%;
+    }
+
+    .cheatsheet-nav{
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+        height: auto;
+    }
+}
