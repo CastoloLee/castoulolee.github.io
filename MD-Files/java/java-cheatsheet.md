@@ -430,21 +430,6 @@ for (int i = 0; i < numbers.length; i++) {
 
 In diesem Beispiel wird ein eindimensionales Array "numbers" mit den Werten 1, 2, 3, 4 und 5 deklariert und initialisiert. Eine for-Schleife wird verwendet, um über das Array zu iterieren und jedes Element auf der Konsole auszugeben. Der Zugriff auf das Array erfolgt durch den Index `i` und den Array-Namen `numbers`.
 
-### Zweidimensionale Arrays
-
-```java
-int[][] matrix = {{1, 2}, {3, 4}, {5, 6}};
-
-// Zugriff auf ein zweidimensionales Array ohne Methoden oder Funktionen
-for (int i = 0; i < matrix.length; i++) {
-    for (int j = 0; j < matrix[i].length; j++) {
-        System.out.println("Element an Index (" + i + ", " + j + "): " + matrix[i][j]);
-    }
-}
-```
-
-In diesem Beispiel wird ein zweidimensionales Array "matrix" mit den Werten {{1, 2}, {3, 4}, {5, 6}} deklariert und initialisiert. Zwei verschachtelte for-Schleifen werden verwendet, um über das Array zu iterieren und jedes Element auf der Konsole auszugeben. Der Zugriff auf ein Element des Arrays erfolgt durch die Indizes `i` und `j` und den Array-Namen `matrix`.
-
 ### Maximum eines eindimensionalen Arrays finden
 
 ```java
