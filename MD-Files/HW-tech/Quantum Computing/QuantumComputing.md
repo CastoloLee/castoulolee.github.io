@@ -1,5 +1,4 @@
 # Quantum Computing
-
 Quantum computing is a type of computing that uses quantum-mechanical phenomena to perform operations on data. It has the potential to solve certain types of problems much faster than classical computers.
 
 ## Difference between normal computer and a quantum computer
