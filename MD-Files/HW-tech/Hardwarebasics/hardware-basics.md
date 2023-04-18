@@ -1,4 +1,4 @@
-# Cheatsheet - hardware tech - hardware basics
+# Cheatsheet - Hardware Tech - Hardware Basics
 
 ## Components in a computer explained
 

@@ -1,4 +1,5 @@
-# Quantum Computing
+# Cheatsheet - Hardware Tech -Quantum Computing
+
 Quantum computing is a rapidly growing field that promises to revolutionize the way we process and transmit information. Unlike classical computing, which operates using bits that can either be in a state of 0 or 1, quantum computing uses qubits, which can be in a state of both 0 and 1 at the same time, allowing for exponentially faster processing of certain types of problems.
 
 ## How does Quantum Computing work?
