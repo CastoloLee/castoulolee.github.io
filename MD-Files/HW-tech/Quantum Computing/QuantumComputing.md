@@ -41,8 +41,6 @@ A qubit can process information by manipulating its quantum state using quantum 
 
 ## Mathematics behind it
 
-Sure, here is the same text with the corresponding math in KaTeX:
-
 One of the key mathematical concepts used in quantum computing is linear algebra. In particular, quantum states are represented using complex vectors in a Hilbert space. The state of a qubit, for example, can be represented as a superposition of its two possible states using a two-dimensional vector:
 
 $$|\psi\rangle = \alpha|0\rangle + \beta|1\rangle$$
