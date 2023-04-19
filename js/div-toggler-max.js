@@ -1,25 +1,3 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Toggle Three Divs</title>
-    <style>
-      .div {
-        width: 200px;
-        height: 100px;
-        margin: 20px;
-        padding: 10px;
-        background-color: #ddd;
-        border: 1px solid #999;
-      }
-    </style>
-  </head>
-  <body>
-    <div id="div1" class="div">Div 1</div>
-    <div id="div2" class="div" style="display: none;">Div 2</div>
-    <div id="div3" class="div" style="display: none;">Div 3</div>
-    <button id="toggleButton">Toggle</button>
-    <script>
       // Get references to the three div elements
       var div1 = document.getElementById('div1');
       var div2 = document.getElementById('div2');
@@ -35,16 +13,16 @@
           div1.style.display = 'block';
           div2.style.display = 'none';
           div3.style.display = 'none';
+          toggleButton.textContent = 'Show Div 2';
         } else if (div2.style.display === 'none') {
           div1.style.display = 'none';
           div2.style.display = 'block';
           div3.style.display = 'none';
-        } else if (div3.style.display === 'none') {
+          toggleButton.textContent = 'Show Div 3';
+        } else {
           div1.style.display = 'none';
           div2.style.display = 'none';
           div3.style.display = 'block';
+          toggleButton.textContent = 'Show Div 1';
         }
       });
-    </script>
-  </body>
-</html>

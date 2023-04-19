@@ -50,6 +50,20 @@ button.toggle{
     height: auto;
 }
 
+button.toggle2{
+    margin-left: 15%;
+    margin-right: 10%;
+    background-color: #aeaeae; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px; /* round edges */
+}
+
 @media only screen and (max-width: 414px) {
     img.card {
         height: 128px;
@@ -96,5 +110,12 @@ button.toggle{
         margin-right: 10%;
         width: 80%;
         height: auto;
+    }
+
+    button.toggle2{
+        margin-left: 15%;
+        margin-right: 10%;
+        width: 10%;
+        height: 15%;
     }
 }
