@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>CAS-Hardware-Cheatsheet-CV</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.0/css/uikit.min.css" />
+    <link rel="stylesheet" href="../../../css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.6/dist/katex.css" integrity="sha384-WJDSieiKTkkHYLvOxEAmhfJdO3s9dNgS4w21XexMTFeAO9GwKO2YOa6GEy3gznMN" crossorigin="anonymous">
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [
+              ['$', '$'],
+              ['\\(', '\\)'],
+              ['$$', '$$'],
+            ],
+          },
+        };
+      </script>
+      <script
+        async
+        src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"
+      ></script>
+</head>
+<body>
+    <br>
+    <br>
+    <div class="cheatsheet-grid">
+            <zero-md id="md" src="ComputerVision.md" no-shadow></zero-md>
+
+            <script>
+              md.addEventListener('zero-md-rendered', () => {
+                var el = document.createElement('script');
+                el.src = 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js';
+                document.head.appendChild(el);
+              });
+            </script>
+                <template>
+                  <link rel="stylesheet" href="../../../css/style-1.css" />
+                  <link rel="stylesheet" href="../../../css/style-2.css" />
+                </template>
+            </zero-md>
+            <br>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.0/js/uikit.min.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.0/js/uikit-icons.min.js"></script>
+</body>
+
+</html>
+<!--
+    LOOK INTO THE FOLDER STRUCTURE THERE IS SOMETHING HIDDEN. LOOK FOR DADJOKESGENERATOR.HTML
+-->
